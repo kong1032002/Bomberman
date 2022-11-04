@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bomberman.entities.Entity</OriginalElement>
+  <nodes>
+    <node x="412.25" y="0.0">bomberman.entities.Entity</node>
+    <node x="230.00000000000003" y="237.0">bomberman.entities.mobs.Bomber</node>
+    <node x="161.0" y="79.0">bomberman.entities.Item</node>
+    <node x="261.0" y="79.0">bomberman.entities.blocks.Portal</node>
+    <node x="0.0" y="158.0">bomberman.entities.items.FlameItem</node>
+    <node x="140.0" y="158.0">bomberman.entities.items.SpeedItem</node>
+    <node x="370.0" y="79.0">bomberman.entities.blocks.Grass</node>
+    <node x="747.0" y="79.0">bomberman.entities.blocks.Brick</node>
+    <node x="706.8461538461538" y="158.0">bomberman.entities.blocks.Flame</node>
+    <node x="596.8461538461538" y="158.0">bomberman.entities.blocks.Bomb</node>
+    <node x="463.49999999999994" y="158.0">bomberman.entities.Mob</node>
+    <node x="577.0" y="237.0">bomberman.entities.mobs.Kondoria</node>
+    <node x="708.0" y="237.0">bomberman.entities.mobs.Oneal</node>
+    <node x="353.0" y="237.0">bomberman.entities.mobs.Doll</node>
+    <node x="575.0" y="79.0">bomberman.entities.AnimatedEntity</node>
+    <node x="451.0" y="237.0">bomberman.entities.mobs.Balloom</node>
+    <node x="475.0" y="79.0">bomberman.entities.blocks.Wall</node>
+    <node x="282.0" y="158.0">bomberman.entities.items.BombItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bomberman.entities.mobs.Kondoria" target="bomberman.entities.Mob" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="632.5" y="212.0" />
+      <point x="503.99999999999994" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.mobs.Balloom" target="bomberman.entities.Mob" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="504.0" y="187.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Brick" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="788.0" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.items.FlameItem" target="bomberman.entities.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="60.0" y="133.0" />
+      <point x="201.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.items.SpeedItem" target="bomberman.entities.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Bomb" target="bomberman.entities.AnimatedEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="641.8461538461538" y="133.0" />
+      <point x="651.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Grass" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="412.5" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.mobs.Oneal" target="bomberman.entities.Mob" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="752.5" y="212.0" />
+      <point x="503.99999999999994" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.Item" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="201.0" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.Mob" target="bomberman.entities.AnimatedEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="503.99999999999994" y="133.0" />
+      <point x="651.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Flame" target="bomberman.entities.AnimatedEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="751.8461538461538" y="133.0" />
+      <point x="651.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Portal" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="305.5" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.AnimatedEntity" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="651.0" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.items.BombItem" target="bomberman.entities.Item" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="342.0" y="133.0" />
+      <point x="201.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.mobs.Bomber" target="bomberman.entities.Mob" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="281.5" y="212.0" />
+      <point x="503.99999999999994" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.mobs.Doll" target="bomberman.entities.Mob" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="392.0" y="212.0" />
+      <point x="503.99999999999994" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="bomberman.entities.blocks.Wall" target="bomberman.entities.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="515.0" y="54.0" />
+      <point x="455.75" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="414.5" y="142.0" />
+  <SelectedNodes>
+    <node>bomberman.entities.mobs.Kondoria</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
